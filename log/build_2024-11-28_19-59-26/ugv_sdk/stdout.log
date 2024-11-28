@@ -1,0 +1,9 @@
+[ 42%] Built target ugv_sdk
+[ 46%] [32m[1mLinking CXX executable ../../bin/demo_scout_robot[0m
+[ 50%] [32m[1mLinking CXX executable ../../bin/demo_scout_mini_omni_robot[0m
+[ 53%] [32m[1mLinking CXX executable ../../bin/demo_tracer_robot[0m
+[ 57%] [32m[1mLinking CXX executable ../../bin/demo_bunker_robot[0m
+[ 60%] [32m[1mLinking CXX executable ../../bin/demo_protocol_detector[0m
+[ 64%] [32m[1mLinking CXX executable ../../bin/demo_robot_version[0m
+[ 67%] [32m[1mLinking CXX executable ../../bin/demo_ranger_robot[0m
+[ 71%] [32m[1mLinking CXX executable ../../bin/demo_hunter_robot[0m

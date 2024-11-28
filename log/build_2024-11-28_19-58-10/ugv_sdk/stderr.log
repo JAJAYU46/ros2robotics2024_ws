@@ -1,0 +1,8 @@
+[01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/src/async_port/async_serial.cpp:[m[K In member function ‘[01m[Kvoid westonrobot::AsyncSerial::SendBytes(const uint8_t*, size_t)[m[K’:
+[01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/src/async_port/async_serial.cpp:157:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass asio::io_context[m[K’ has no member named ‘[01m[Kpost[m[K’
+  157 |   io_context_.[01;31m[Kpost[m[K(
+      |               [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:76: CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:209: CMakeFiles/ugv_sdk.dir/all] Error 2
+gmake: *** [Makefile:156: all] Error 2

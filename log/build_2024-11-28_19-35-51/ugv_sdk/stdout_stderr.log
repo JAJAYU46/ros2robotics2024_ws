@@ -1,0 +1,19 @@
+[31mCMake Error at CMakeLists.txt:13 (find_package):
+  By not providing "FindASIO.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "ASIO", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "ASIO" with any of
+  the following names:
+
+    ASIOConfig.cmake
+    asio-config.cmake
+
+  Add the installation prefix of "ASIO" to CMAKE_PREFIX_PATH or set
+  "ASIO_DIR" to a directory containing one of the above files.  If "ASIO"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+[0m
+-- Configuring incomplete, errors occurred!
+gmake: *** [Makefile:632: cmake_check_build_system] Error 1

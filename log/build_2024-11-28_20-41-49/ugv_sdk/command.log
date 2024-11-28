@@ -1,0 +1,4 @@
+Invoking command in '/home/jajayu/Documents/ros2robotics2024_ws/build/ugv_sdk': /home/jajayu/.local/bin/cmake --build /home/jajayu/Documents/ros2robotics2024_ws/build/ugv_sdk -- -j8 -l8
+Invoked command in '/home/jajayu/Documents/ros2robotics2024_ws/build/ugv_sdk' returned '0': /home/jajayu/.local/bin/cmake --build /home/jajayu/Documents/ros2robotics2024_ws/build/ugv_sdk -- -j8 -l8
+Invoking command in '/home/jajayu/Documents/ros2robotics2024_ws/build/ugv_sdk': /home/jajayu/.local/bin/cmake --install /home/jajayu/Documents/ros2robotics2024_ws/build/ugv_sdk
+Invoked command in '/home/jajayu/Documents/ros2robotics2024_ws/build/ugv_sdk' returned '1': /home/jajayu/.local/bin/cmake --install /home/jajayu/Documents/ros2robotics2024_ws/build/ugv_sdk

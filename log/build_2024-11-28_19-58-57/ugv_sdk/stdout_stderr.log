@@ -1,0 +1,53 @@
+[  3%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o[0m
+[  7%] [32m[1mLinking CXX static library lib/libugv_sdk.a[0m
+[ 42%] Built target ugv_sdk
+[ 50%] [32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_mini_omni_robot.dir/scout_mini_omni_demo.cpp.o[0m
+[ 50%] [32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_robot.dir/scout_robot_demo.cpp.o[0m
+[ 53%] [32mBuilding CXX object sample/ranger_demo/CMakeFiles/demo_ranger_robot.dir/ranger_robot_demo.cpp.o[0m
+[ 60%] [32mBuilding CXX object sample/bunker_demo/CMakeFiles/demo_bunker_robot.dir/bunker_robot_demo.cpp.o[0m
+[ 60%] [32mBuilding CXX object sample/tracer_demo/CMakeFiles/demo_tracer_robot.dir/tracer_robot_demo.cpp.o[0m
+[ 64%] [32mBuilding CXX object sample/hunter_demo/CMakeFiles/demo_hunter_robot.dir/hunter_robot_demo.cpp.o[0m
+[ 67%] [32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_protocol_detector.dir/demo_protocol_detector.cpp.o[0m
+[ 71%] [32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_robot_version.dir/demo_robot_version.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable ../../bin/demo_bunker_robot[0m
+/usr/bin/ld: cannot find -lasio: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [sample/bunker_demo/CMakeFiles/demo_bunker_robot.dir/build.make:98: bin/demo_bunker_robot] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: sample/bunker_demo/CMakeFiles/demo_bunker_robot.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 78%] [32m[1mLinking CXX executable ../../bin/demo_protocol_detector[0m
+/usr/bin/ld: cannot find -lasio: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [sample/utils_demo/CMakeFiles/demo_protocol_detector.dir/build.make:98: bin/demo_protocol_detector] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:391: sample/utils_demo/CMakeFiles/demo_protocol_detector.dir/all] Error 2
+[ 82%] [32m[1mLinking CXX executable ../../bin/demo_hunter_robot[0m
+/usr/bin/ld: cannot find -lasio: No such file or directory
+[ 85%] [32m[1mLinking CXX executable ../../bin/demo_robot_version[0m
+/usr/bin/ld: cannot find -lasio: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [sample/hunter_demo/CMakeFiles/demo_hunter_robot.dir/build.make:98: bin/demo_hunter_robot] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:365: sample/hunter_demo/CMakeFiles/demo_hunter_robot.dir/all] Error 2
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [sample/utils_demo/CMakeFiles/demo_robot_version.dir/build.make:98: bin/demo_robot_version] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:417: sample/utils_demo/CMakeFiles/demo_robot_version.dir/all] Error 2
+[ 89%] [32m[1mLinking CXX executable ../../bin/demo_scout_robot[0m
+[ 92%] [32m[1mLinking CXX executable ../../bin/demo_scout_mini_omni_robot[0m
+/usr/bin/ld: cannot find -lasio: No such file or directory
+/usr/bin/ld: cannot find -lasio: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [sample/scout_demo/CMakeFiles/demo_scout_robot.dir/build.make:98: bin/demo_scout_robot] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:235: sample/scout_demo/CMakeFiles/demo_scout_robot.dir/all] Error 2
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [sample/scout_demo/CMakeFiles/demo_scout_mini_omni_robot.dir/build.make:98: bin/demo_scout_mini_omni_robot] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:261: sample/scout_demo/CMakeFiles/demo_scout_mini_omni_robot.dir/all] Error 2
+[ 96%] [32m[1mLinking CXX executable ../../bin/demo_ranger_robot[0m
+/usr/bin/ld: cannot find -lasio: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [sample/ranger_demo/CMakeFiles/demo_ranger_robot.dir/build.make:98: bin/demo_ranger_robot] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:313: sample/ranger_demo/CMakeFiles/demo_ranger_robot.dir/all] Error 2
+[100%] [32m[1mLinking CXX executable ../../bin/demo_tracer_robot[0m
+/usr/bin/ld: cannot find -lasio: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [sample/tracer_demo/CMakeFiles/demo_tracer_robot.dir/build.make:98: bin/demo_tracer_robot] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:287: sample/tracer_demo/CMakeFiles/demo_tracer_robot.dir/all] Error 2
+gmake: *** [Makefile:156: all] Error 2

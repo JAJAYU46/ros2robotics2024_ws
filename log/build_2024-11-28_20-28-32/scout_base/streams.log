@@ -1,0 +1,368 @@
+[0.023s] Invoking command in '/home/jajayu/ros2robotics2024_ws/build/scout_base': CMAKE_PREFIX_PATH=/home/jajayu/TomatoHarvesting_NextBestView/nbv_code/ros2_ws2/install/my_robot_nbv:/home/jajayu/TomatoHarvesting_NextBestView/nbv_code/ros2_ws2/install/my_robot_cam:/home/jajayu/ros2_ws/install/webots_ros2_tests:/home/jajayu/ros2_ws/install/webots_ros2:/home/jajayu/ros2_ws/install/pcd_demo:/home/jajayu/ros2_ws/install/my_robot_controller:/home/jajayu/ros2_ws/install/my_robot_cam:/home/jajayu/ros2_ws/install/gazebo_tutorial:/home/jajayu/ros2robotics2024_ws/install/ugv_sdk:/home/jajayu/ros2robotics2024_ws/install/scout_msgs:/opt/ros/humble:/home/jajayu/ros2robotics2024_ws/install/scout_description:/home/jajayu/TomatoHarvesting_NextBestView/nbv_code/ros2_ws2/install/realsense2_description:/home/jajayu/TomatoHarvesting_NextBestView/nbv_code/ros2_ws2/install/realsense2_camera:/home/jajayu/TomatoHarvesting_NextBestView/nbv_code/ros2_ws2/install/realsense2_camera_msgs:/home/jajayu/TomatoHarvesting_NextBestView/nbv_code/ros2_ws2/install/octomap_server2:/home/jajayu/TomatoHarvesting_NextBestView/nbv_code/ros2_ws2/install/my_robot_nbv_cmake:/home/jajayu/TomatoHarvesting_NextBestView/nbv_code/ros2_ws2/install/my_bot:/home/jajayu/ros2_ws/install/urdf_example:/home/jajayu/ros2_ws/install/perception_pcl:/home/jajayu/ros2_ws/install/pcl_ros:/home/jajayu/ros2_ws/install/octomap_server2:/home/jajayu/ros2_ws/install/pcl_conversions:/home/jajayu/ros2_ws/install/pcl_msgs:/home/jajayu/ros2_ws/install/my_robot_cam_cmake:/home/jajayu/ros2_ws/install/my_bot:/home/jajayu/ros2_ws/install/depthimage_to_pointcloud2 /home/jajayu/.local/bin/cmake --build /home/jajayu/ros2robotics2024_ws/build/scout_base -- -j8 -l8
+[0.147s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.442s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.480s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.483s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.491s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.506s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.527s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.607s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.610s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.776s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.982s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.044s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.149s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.255s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[1.263s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.662s] -- Found scout_msgs: 0.1.0 (/home/jajayu/ros2robotics2024_ws/install/scout_msgs/share/scout_msgs/cmake)
+[1.740s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.743s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.745s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.765s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.855s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.907s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.907s] -- Configured cppcheck include dirs: /home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/asio/asio/include;/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include
+[1.907s] -- Configured cppcheck exclude dirs and/or files: 
+[1.962s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.962s] -- Configured cpplint exclude dirs and/or files: 
+[1.972s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.984s] -- Added test 'lint_cmake' to check CMake code style
+[1.995s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.048s] -- Added test 'uncrustify' to check C / C++ code style
+[2.048s] -- Configured uncrustify additional arguments: 
+[2.054s] -- Added test 'xmllint' to check XML markup files
+[2.055s] -- Configuring done (1.9s)
+[2.094s] -- Generating done (0.0s)
+[2.094s] -- Build files have been written to: /home/jajayu/ros2robotics2024_ws/build/scout_base
+[2.132s] [ 33%] [32mBuilding CXX object CMakeFiles/scout_base_node.dir/src/scout_base_ros.cpp.o[0m
+[2.133s] [ 66%] [32mBuilding CXX object CMakeFiles/scout_base_node.dir/src/scout_base_node.cpp.o[0m
+[2.380s] In file included from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include/scout_base/scout_messenger.hpp:21[m[K,
+[2.380s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:12[m[K:
+[2.380s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[2.380s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[2.380s]       |  [01;35m[K^~~~~~~[m[K
+[6.465s] [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:[m[K In constructor ‘[01m[Kwestonrobot::ScoutBaseRos::ScoutBaseRos(std::string)[m[K’:
+[6.467s] [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:18:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kwestonrobot::ScoutBaseRos::declare_parameter(const char [10])[m[K’
+[6.467s]    18 |   [01;31m[Kthis->declare_parameter("port_name")[m[K;
+[6.467s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[6.467s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.467s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include/scout_base/scout_base_ros.hpp:16[m[K,
+[6.467s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:10[m[K:
+[6.467s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[6.467s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[6.467s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.467s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.467s] [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:18:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.468s]    18 |   [01;36m[Kthis->declare_parameter("port_name")[m[K;
+[6.468s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[6.468s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.468s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include/scout_base/scout_base_ros.hpp:16[m[K,
+[6.468s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:10[m[K:
+[6.468s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[6.469s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[6.469s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.469s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.469s] [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:18:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[6.469s]    18 |   [01;36m[Kthis->declare_parameter("port_name")[m[K;
+[6.469s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[6.469s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.469s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.469s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.469s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include/scout_base/scout_base_ros.hpp:16[m[K,
+[6.469s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:10[m[K:
+[6.469s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[6.469s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[6.469s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.469s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.470s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[6.470s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[6.470s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.470s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.470s] [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:20:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kwestonrobot::ScoutBaseRos::declare_parameter(const char [11])[m[K’
+[6.470s]    20 |   [01;31m[Kthis->declare_parameter("odom_frame")[m[K;
+[6.470s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[6.470s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.470s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include/scout_base/scout_base_ros.hpp:16[m[K,
+[6.470s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:10[m[K:
+[6.470s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[6.470s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[6.470s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.470s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.470s] [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:20:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.471s]    20 |   [01;36m[Kthis->declare_parameter("odom_frame")[m[K;
+[6.471s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[6.471s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.471s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include/scout_base/scout_base_ros.hpp:16[m[K,
+[6.471s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:10[m[K:
+[6.471s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[6.471s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[6.471s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.471s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.471s] [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:20:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[6.471s]    20 |   [01;36m[Kthis->declare_parameter("odom_frame")[m[K;
+[6.471s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[6.471s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.472s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include/scout_base/scout_base_ros.hpp:16[m[K,
+[6.472s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:10[m[K:
+[6.472s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[6.472s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[6.472s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.472s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.472s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[6.472s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[6.472s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.472s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.472s] [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:21:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kwestonrobot::ScoutBaseRos::declare_parameter(const char [11])[m[K’
+[6.472s]    21 |   [01;31m[Kthis->declare_parameter("base_frame")[m[K;
+[6.472s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[6.472s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.473s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include/scout_base/scout_base_ros.hpp:16[m[K,
+[6.473s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:10[m[K:
+[6.473s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[6.473s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[6.473s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.473s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.473s] [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:21:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.473s]    21 |   [01;36m[Kthis->declare_parameter("base_frame")[m[K;
+[6.473s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[6.473s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.473s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include/scout_base/scout_base_ros.hpp:16[m[K,
+[6.473s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:10[m[K:
+[6.473s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[6.473s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[6.473s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.474s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.474s] [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:21:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[6.474s]    21 |   [01;36m[Kthis->declare_parameter("base_frame")[m[K;
+[6.474s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[6.474s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.474s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.474s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.474s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include/scout_base/scout_base_ros.hpp:16[m[K,
+[6.474s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:10[m[K:
+[6.474s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[6.474s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[6.474s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.474s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.474s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[6.474s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[6.474s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.475s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.475s] [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:22:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kwestonrobot::ScoutBaseRos::declare_parameter(const char [16])[m[K’
+[6.475s]    22 |   [01;31m[Kthis->declare_parameter("odom_topic_name")[m[K;
+[6.475s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[6.475s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.475s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.475s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.475s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include/scout_base/scout_base_ros.hpp:16[m[K,
+[6.475s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:10[m[K:
+[6.475s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[6.475s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[6.475s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.475s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.475s] [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:22:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.475s]    22 |   [01;36m[Kthis->declare_parameter("odom_topic_name")[m[K;
+[6.476s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[6.476s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.476s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include/scout_base/scout_base_ros.hpp:16[m[K,
+[6.476s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:10[m[K:
+[6.476s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[6.476s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[6.476s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.476s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.476s] [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:22:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[6.476s]    22 |   [01;36m[Kthis->declare_parameter("odom_topic_name")[m[K;
+[6.476s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[6.476s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.477s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include/scout_base/scout_base_ros.hpp:16[m[K,
+[6.477s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:10[m[K:
+[6.477s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[6.477s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[6.477s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.477s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.477s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[6.477s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[6.477s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.477s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.477s] [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:24:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kwestonrobot::ScoutBaseRos::declare_parameter(const char [14])[m[K’
+[6.477s]    24 |   [01;31m[Kthis->declare_parameter("is_scout_mini")[m[K;
+[6.478s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[6.478s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.478s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.478s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.478s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include/scout_base/scout_base_ros.hpp:16[m[K,
+[6.478s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:10[m[K:
+[6.478s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[6.478s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[6.478s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.478s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.478s] [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:24:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.478s]    24 |   [01;36m[Kthis->declare_parameter("is_scout_mini")[m[K;
+[6.478s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[6.478s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.478s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.479s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.479s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include/scout_base/scout_base_ros.hpp:16[m[K,
+[6.479s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:10[m[K:
+[6.479s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[6.479s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[6.479s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.479s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.479s] [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:24:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[6.479s]    24 |   [01;36m[Kthis->declare_parameter("is_scout_mini")[m[K;
+[6.479s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[6.479s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.479s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.479s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.479s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include/scout_base/scout_base_ros.hpp:16[m[K,
+[6.479s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:10[m[K:
+[6.480s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[6.480s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[6.480s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.480s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.480s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[6.480s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[6.480s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.480s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.480s] [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:25:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kwestonrobot::ScoutBaseRos::declare_parameter(const char [14])[m[K’
+[6.480s]    25 |   [01;31m[Kthis->declare_parameter("is_omni_wheel")[m[K;
+[6.480s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[6.480s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.480s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.480s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.480s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include/scout_base/scout_base_ros.hpp:16[m[K,
+[6.480s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:10[m[K:
+[6.480s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[6.481s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[6.481s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.481s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.481s] [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:25:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.481s]    25 |   [01;36m[Kthis->declare_parameter("is_omni_wheel")[m[K;
+[6.481s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[6.481s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.481s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.481s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.481s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include/scout_base/scout_base_ros.hpp:16[m[K,
+[6.481s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:10[m[K:
+[6.481s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[6.481s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[6.481s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.481s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.481s] [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:25:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[6.481s]    25 |   [01;36m[Kthis->declare_parameter("is_omni_wheel")[m[K;
+[6.482s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[6.482s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.482s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.482s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.482s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include/scout_base/scout_base_ros.hpp:16[m[K,
+[6.482s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:10[m[K:
+[6.482s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[6.482s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[6.482s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.482s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.482s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[6.482s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[6.482s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.482s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.482s] [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:27:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kwestonrobot::ScoutBaseRos::declare_parameter(const char [16])[m[K’
+[6.482s]    27 |   [01;31m[Kthis->declare_parameter("simulated_robot")[m[K;
+[6.482s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[6.482s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.483s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.483s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.483s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include/scout_base/scout_base_ros.hpp:16[m[K,
+[6.483s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:10[m[K:
+[6.483s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[6.483s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[6.483s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.483s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.483s] [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:27:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.483s]    27 |   [01;36m[Kthis->declare_parameter("simulated_robot")[m[K;
+[6.483s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[6.483s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.483s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.483s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.483s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include/scout_base/scout_base_ros.hpp:16[m[K,
+[6.483s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:10[m[K:
+[6.483s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[6.483s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[6.484s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.484s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.484s] [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:27:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[6.484s]    27 |   [01;36m[Kthis->declare_parameter("simulated_robot")[m[K;
+[6.484s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[6.484s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.484s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.484s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.484s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include/scout_base/scout_base_ros.hpp:16[m[K,
+[6.484s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:10[m[K:
+[6.484s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[6.484s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[6.484s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.484s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.484s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[6.484s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[6.484s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.485s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.485s] [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:28:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kwestonrobot::ScoutBaseRos::declare_parameter(const char [13])[m[K’
+[6.485s]    28 |   [01;31m[Kthis->declare_parameter("control_rate")[m[K;
+[6.485s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[6.485s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.485s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.485s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.485s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include/scout_base/scout_base_ros.hpp:16[m[K,
+[6.485s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:10[m[K:
+[6.485s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[6.485s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[6.485s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.485s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.485s] [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:28:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.485s]    28 |   [01;36m[Kthis->declare_parameter("control_rate")[m[K;
+[6.485s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[6.486s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.486s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.486s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.486s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include/scout_base/scout_base_ros.hpp:16[m[K,
+[6.486s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:10[m[K:
+[6.486s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[6.486s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[6.486s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.486s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.486s] [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:28:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[6.486s]    28 |   [01;36m[Kthis->declare_parameter("control_rate")[m[K;
+[6.486s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[6.486s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.486s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.486s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.486s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include/scout_base/scout_base_ros.hpp:16[m[K,
+[6.487s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:10[m[K:
+[6.487s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[6.487s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[6.487s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.487s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.487s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[6.487s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[6.487s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.487s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[11.187s] gmake[2]: *** [CMakeFiles/scout_base_node.dir/build.make:76: CMakeFiles/scout_base_node.dir/src/scout_base_ros.cpp.o] Error 1
+[11.187s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/scout_base_node.dir/all] Error 2
+[11.187s] gmake: *** [Makefile:146: all] Error 2
+[11.202s] Invoked command in '/home/jajayu/ros2robotics2024_ws/build/scout_base' returned '2': CMAKE_PREFIX_PATH=/home/jajayu/TomatoHarvesting_NextBestView/nbv_code/ros2_ws2/install/my_robot_nbv:/home/jajayu/TomatoHarvesting_NextBestView/nbv_code/ros2_ws2/install/my_robot_cam:/home/jajayu/ros2_ws/install/webots_ros2_tests:/home/jajayu/ros2_ws/install/webots_ros2:/home/jajayu/ros2_ws/install/pcd_demo:/home/jajayu/ros2_ws/install/my_robot_controller:/home/jajayu/ros2_ws/install/my_robot_cam:/home/jajayu/ros2_ws/install/gazebo_tutorial:/home/jajayu/ros2robotics2024_ws/install/ugv_sdk:/home/jajayu/ros2robotics2024_ws/install/scout_msgs:/opt/ros/humble:/home/jajayu/ros2robotics2024_ws/install/scout_description:/home/jajayu/TomatoHarvesting_NextBestView/nbv_code/ros2_ws2/install/realsense2_description:/home/jajayu/TomatoHarvesting_NextBestView/nbv_code/ros2_ws2/install/realsense2_camera:/home/jajayu/TomatoHarvesting_NextBestView/nbv_code/ros2_ws2/install/realsense2_camera_msgs:/home/jajayu/TomatoHarvesting_NextBestView/nbv_code/ros2_ws2/install/octomap_server2:/home/jajayu/TomatoHarvesting_NextBestView/nbv_code/ros2_ws2/install/my_robot_nbv_cmake:/home/jajayu/TomatoHarvesting_NextBestView/nbv_code/ros2_ws2/install/my_bot:/home/jajayu/ros2_ws/install/urdf_example:/home/jajayu/ros2_ws/install/perception_pcl:/home/jajayu/ros2_ws/install/pcl_ros:/home/jajayu/ros2_ws/install/octomap_server2:/home/jajayu/ros2_ws/install/pcl_conversions:/home/jajayu/ros2_ws/install/pcl_msgs:/home/jajayu/ros2_ws/install/my_robot_cam_cmake:/home/jajayu/ros2_ws/install/my_bot:/home/jajayu/ros2_ws/install/depthimage_to_pointcloud2 /home/jajayu/.local/bin/cmake --build /home/jajayu/ros2robotics2024_ws/build/scout_base -- -j8 -l8

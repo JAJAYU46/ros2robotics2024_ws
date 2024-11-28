@@ -1,0 +1,11 @@
+[0.012s] Invoking command in '/home/jajayu/ros2robotics2024_ws/build/scout_base': CMAKE_PREFIX_PATH=/home/jajayu/TomatoHarvesting_NextBestView/nbv_code/ros2_ws2/install/my_robot_nbv:/home/jajayu/TomatoHarvesting_NextBestView/nbv_code/ros2_ws2/install/my_robot_cam:/home/jajayu/ros2_ws/install/webots_ros2_tests:/home/jajayu/ros2_ws/install/webots_ros2:/home/jajayu/ros2_ws/install/pcd_demo:/home/jajayu/ros2_ws/install/my_robot_controller:/home/jajayu/ros2_ws/install/my_robot_cam:/home/jajayu/ros2_ws/install/gazebo_tutorial:/opt/ros/humble:${CMAKE_PREFIX_PATH} /home/jajayu/.local/bin/cmake --build /home/jajayu/ros2robotics2024_ws/build/scout_base -- -j8 -l8
+[0.133s] [ 33%] [32mBuilding CXX object CMakeFiles/scout_base_node.dir/src/scout_base_ros.cpp.o[0m
+[0.390s] In file included from [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/src/scout_base_ros.cpp:12[m[K:
+[0.390s] [01m[K/home/jajayu/ros2robotics2024_ws/src/scout_ros2/scout_base/include/scout_base/scout_messenger.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.h: No such file or directory
+[0.390s]    21 | #include [01;31m[K<tf2_geometry_msgs/tf2_geometry_msgs.h>[m[K
+[0.390s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.390s] compilation terminated.
+[0.395s] gmake[2]: *** [CMakeFiles/scout_base_node.dir/build.make:76: CMakeFiles/scout_base_node.dir/src/scout_base_ros.cpp.o] Error 1
+[0.395s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/scout_base_node.dir/all] Error 2
+[0.395s] gmake: *** [Makefile:146: all] Error 2
+[0.412s] Invoked command in '/home/jajayu/ros2robotics2024_ws/build/scout_base' returned '2': CMAKE_PREFIX_PATH=/home/jajayu/TomatoHarvesting_NextBestView/nbv_code/ros2_ws2/install/my_robot_nbv:/home/jajayu/TomatoHarvesting_NextBestView/nbv_code/ros2_ws2/install/my_robot_cam:/home/jajayu/ros2_ws/install/webots_ros2_tests:/home/jajayu/ros2_ws/install/webots_ros2:/home/jajayu/ros2_ws/install/pcd_demo:/home/jajayu/ros2_ws/install/my_robot_controller:/home/jajayu/ros2_ws/install/my_robot_cam:/home/jajayu/ros2_ws/install/gazebo_tutorial:/opt/ros/humble:${CMAKE_PREFIX_PATH} /home/jajayu/.local/bin/cmake --build /home/jajayu/ros2robotics2024_ws/build/scout_base -- -j8 -l8

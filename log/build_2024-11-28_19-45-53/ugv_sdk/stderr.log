@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:25 (message):
+  Could not find Asio headers!
+
+[0m
+gmake: *** [Makefile:632: cmake_check_build_system] Error 1

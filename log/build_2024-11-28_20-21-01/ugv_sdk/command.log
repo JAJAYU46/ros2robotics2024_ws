@@ -1,0 +1,6 @@
+Invoking command in '/home/jajayu/ros2robotics2024_ws/build/ugv_sdk': /home/jajayu/.local/bin/cmake /home/jajayu/ros2robotics2024_ws/src/ugv_sdk -DCMAKE_INSTALL_PREFIX=/home/jajayu/ros2robotics2024_ws/install/ugv_sdk
+Invoked command in '/home/jajayu/ros2robotics2024_ws/build/ugv_sdk' returned '0': /home/jajayu/.local/bin/cmake /home/jajayu/ros2robotics2024_ws/src/ugv_sdk -DCMAKE_INSTALL_PREFIX=/home/jajayu/ros2robotics2024_ws/install/ugv_sdk
+Invoking command in '/home/jajayu/ros2robotics2024_ws/build/ugv_sdk': /home/jajayu/.local/bin/cmake --build /home/jajayu/ros2robotics2024_ws/build/ugv_sdk -- -j8 -l8
+Invoked command in '/home/jajayu/ros2robotics2024_ws/build/ugv_sdk' returned '0': /home/jajayu/.local/bin/cmake --build /home/jajayu/ros2robotics2024_ws/build/ugv_sdk -- -j8 -l8
+Invoking command in '/home/jajayu/ros2robotics2024_ws/build/ugv_sdk': /home/jajayu/.local/bin/cmake --install /home/jajayu/ros2robotics2024_ws/build/ugv_sdk
+Invoked command in '/home/jajayu/ros2robotics2024_ws/build/ugv_sdk' returned '0': /home/jajayu/.local/bin/cmake --install /home/jajayu/ros2robotics2024_ws/build/ugv_sdk

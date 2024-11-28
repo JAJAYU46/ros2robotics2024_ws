@@ -1,0 +1,24 @@
+[0.035s] Invoking command in '/home/jajayu/ros2robotics2024_ws/build/ugv_sdk': /home/jajayu/.local/bin/cmake --build /home/jajayu/ros2robotics2024_ws/build/ugv_sdk -- -j8 -l8
+[0.153s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.339s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.526s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.535s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.550s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.573s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.604s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.806s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.811s] -- Found Eigen3: TRUE (found version "3.4.0")
+[0.811s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.019s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.025s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.149s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.186s] -- Found FastRTPS: /opt/ros/humble/include
+[1.250s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.843s] [31mCMake Error at CMakeLists.txt:40 (target_link_libraries):
+[1.843s]   Cannot specify link libraries for target "ugv_sdk" which is not built by
+[1.843s]   this project.
+[1.844s] 
+[1.844s] [0m
+[1.844s] -- Configuring incomplete, errors occurred!
+[1.856s] gmake: *** [Makefile:632: cmake_check_build_system] Error 1
+[1.871s] Invoked command in '/home/jajayu/ros2robotics2024_ws/build/ugv_sdk' returned '2': /home/jajayu/.local/bin/cmake --build /home/jajayu/ros2robotics2024_ws/build/ugv_sdk -- -j8 -l8

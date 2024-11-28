@@ -1,0 +1,108 @@
+[0.029s] Invoking command in '/home/jajayu/ros2robotics2024_ws/build/ugv_sdk': /home/jajayu/.local/bin/cmake --build /home/jajayu/ros2robotics2024_ws/build/ugv_sdk -- -j8 -l8
+[0.135s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.446s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.450s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.459s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.474s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.496s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.660s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.661s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.822s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.824s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.984s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.524s] -- Build package with cmake
+[1.524s] -- Tests will not be built
+[1.536s] -- Project will be installed to /home/jajayu/ros2robotics2024_ws/install/ugv_sdk with 'make install'
+[1.536s] --  - To install LIB components to /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/lib
+[1.536s] --  - To install BIN components to /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/bin
+[1.537s] --  - To install INCLUDE components to /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include
+[1.537s] --  - To install CMAKE components to /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/share/cmake/ugv_sdk
+[1.566s] -- Configuring done (1.4s)
+[1.624s] -- Generating done (0.1s)
+[1.624s] -- Build files have been written to: /home/jajayu/ros2robotics2024_ws/build/ugv_sdk
+[1.684s] [  3%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o[0m
+[1.685s] [  7%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_can.cpp.o[0m
+[1.687s] [ 10%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/utilities/protocol_detector.cpp.o[0m
+[1.688s] [ 14%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/scout_robot.cpp.o[0m
+[1.690s] [ 17%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/hunter_robot.cpp.o[0m
+[1.693s] [ 21%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/bunker_robot.cpp.o[0m
+[1.696s] [ 25%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/ranger_robot.cpp.o[0m
+[1.696s] [ 28%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/titan_robot.cpp.o[0m
+[3.871s] [ 32%] [32mBuilding C object CMakeFiles/ugv_sdk.dir/src/protocol_v2/agilex_msg_parser_v2.c.o[0m
+[3.998s] [ 35%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/protocol_v2/protocol_v2_parser.cpp.o[0m
+[4.039s] [ 39%] [32mBuilding C object CMakeFiles/ugv_sdk.dir/src/protocol_v1/agilex_msg_parser_v1.c.o[0m
+[5.785s] [ 42%] [32m[1mLinking CXX static library lib/libugv_sdk.a[0m
+[5.816s] [ 42%] Built target ugv_sdk
+[5.836s] [ 46%] [32mBuilding CXX object sample/bunker_demo/CMakeFiles/demo_bunker_robot.dir/bunker_robot_demo.cpp.o[0m
+[5.838s] [ 50%] [32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_robot.dir/scout_robot_demo.cpp.o[0m
+[5.838s] [ 53%] [32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_mini_omni_robot.dir/scout_mini_omni_demo.cpp.o[0m
+[5.838s] [ 57%] [32mBuilding CXX object sample/ranger_demo/CMakeFiles/demo_ranger_robot.dir/ranger_robot_demo.cpp.o[0m
+[5.839s] [ 60%] [32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_protocol_detector.dir/demo_protocol_detector.cpp.o[0m
+[5.840s] [ 64%] [32mBuilding CXX object sample/tracer_demo/CMakeFiles/demo_tracer_robot.dir/tracer_robot_demo.cpp.o[0m
+[5.842s] [ 67%] [32mBuilding CXX object sample/hunter_demo/CMakeFiles/demo_hunter_robot.dir/hunter_robot_demo.cpp.o[0m
+[5.848s] [ 71%] [32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_robot_version.dir/demo_robot_version.cpp.o[0m
+[6.410s] [ 75%] [32m[1mLinking CXX executable ../../bin/demo_bunker_robot[0m
+[6.570s] [ 75%] Built target demo_bunker_robot
+[7.619s] [ 78%] [32m[1mLinking CXX executable ../../bin/demo_protocol_detector[0m
+[7.686s] [ 82%] [32m[1mLinking CXX executable ../../bin/demo_hunter_robot[0m
+[7.722s] [ 85%] [32m[1mLinking CXX executable ../../bin/demo_robot_version[0m
+[7.760s] [ 85%] Built target demo_protocol_detector
+[7.776s] [ 89%] [32m[1mLinking CXX executable ../../bin/demo_scout_mini_omni_robot[0m
+[7.788s] [ 92%] [32m[1mLinking CXX executable ../../bin/demo_scout_robot[0m
+[7.839s] [ 92%] Built target demo_hunter_robot
+[7.870s] [ 92%] Built target demo_robot_version
+[7.905s] [ 92%] Built target demo_scout_mini_omni_robot
+[7.906s] [ 96%] [32m[1mLinking CXX executable ../../bin/demo_ranger_robot[0m
+[7.911s] [ 96%] Built target demo_scout_robot
+[8.002s] [ 96%] Built target demo_ranger_robot
+[8.015s] [100%] [32m[1mLinking CXX executable ../../bin/demo_tracer_robot[0m
+[8.060s] [100%] Built target demo_tracer_robot
+[8.078s] Invoked command in '/home/jajayu/ros2robotics2024_ws/build/ugv_sdk' returned '0': /home/jajayu/.local/bin/cmake --build /home/jajayu/ros2robotics2024_ws/build/ugv_sdk -- -j8 -l8
+[8.412s] Invoking command in '/home/jajayu/ros2robotics2024_ws/build/ugv_sdk': /home/jajayu/.local/bin/cmake --install /home/jajayu/ros2robotics2024_ws/build/ugv_sdk
+[8.517s] -- Install configuration: "Release"
+[8.517s] -- Installing: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/lib/libugv_sdk.a
+[8.519s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk
+[8.519s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details
+[8.519s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v2
+[8.519s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v2/protocol_v2_parser.hpp
+[8.519s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1
+[8.519s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/protocol_v1_parser.hpp
+[8.519s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/robot_limits.hpp
+[8.520s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/agilex_msg_parser_v1.h
+[8.520s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/parser_base.hpp
+[8.520s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/interface
+[8.520s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_message.h
+[8.520s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/interface/tracer_interface.hpp
+[8.520s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/interface/titan_interface.hpp
+[8.520s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/interface/scout_interface.hpp
+[8.520s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/interface/robot_common_interface.hpp
+[8.520s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_types.h
+[8.520s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/interface/ranger_interface.hpp
+[8.520s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/interface/hunter_interface.hpp
+[8.520s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/interface/bunker_interface.hpp
+[8.520s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base
+[8.521s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/titan_base.hpp
+[8.521s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/scout_base.hpp
+[8.521s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/ranger_base.hpp
+[8.521s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp
+[8.521s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp
+[8.521s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/hunter_base.hpp
+[8.521s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/tracer_base.hpp
+[8.521s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/async_port
+[8.521s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/async_serial.hpp
+[8.521s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/ring_buffer.hpp
+[8.522s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp
+[8.522s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot
+[8.522s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/ranger_robot.hpp
+[8.522s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/scout_robot.hpp
+[8.522s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/titan_robot.hpp
+[8.522s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/hunter_robot.hpp
+[8.522s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/bunker_robot.hpp
+[8.522s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/tracer_robot.hpp
+[8.522s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/utilities
+[8.522s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include/ugv_sdk/utilities/protocol_detector.hpp
+[8.522s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets.cmake
+[8.522s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets-release.cmake
+[8.522s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfig.cmake
+[8.522s] -- Up-to-date: /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfigVersion.cmake
+[8.537s] Invoked command in '/home/jajayu/ros2robotics2024_ws/build/ugv_sdk' returned '0': /home/jajayu/.local/bin/cmake --install /home/jajayu/ros2robotics2024_ws/build/ugv_sdk

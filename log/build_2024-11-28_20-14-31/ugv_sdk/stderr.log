@@ -1,0 +1,34 @@
+/usr/bin/ld: cannot find -ltf2_geometry_msgs: No such file or directory
+/usr/bin/ld: cannot find -ltf2_geometry_msgs: No such file or directory
+/usr/bin/ld: cannot find -ltf2_geometry_msgs: No such file or directory
+/usr/bin/ld: cannot find -ltf2_geometry_msgs: No such file or directory
+/usr/bin/ld: cannot find -ltf2_geometry_msgs: No such file or directory
+collect2: error: ld returned 1 exit status
+/usr/bin/ld: cannot find -ltf2_geometry_msgs: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [sample/ranger_demo/CMakeFiles/demo_ranger_robot.dir/build.make:98: bin/demo_ranger_robot] Error 1
+gmake[2]: *** [sample/tracer_demo/CMakeFiles/demo_tracer_robot.dir/build.make:98: bin/demo_tracer_robot] Error 1
+/usr/bin/ld: cannot find -ltf2_geometry_msgs: No such file or directory
+gmake[1]: *** [CMakeFiles/Makefile2:367: sample/ranger_demo/CMakeFiles/demo_ranger_robot.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:341: sample/tracer_demo/CMakeFiles/demo_tracer_robot.dir/all] Error 2
+/usr/bin/ld: cannot find -ltf2_geometry_msgs: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [sample/utils_demo/CMakeFiles/demo_protocol_detector.dir/build.make:98: bin/demo_protocol_detector] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:445: sample/utils_demo/CMakeFiles/demo_protocol_detector.dir/all] Error 2
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [sample/scout_demo/CMakeFiles/demo_scout_robot.dir/build.make:98: bin/demo_scout_robot] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:289: sample/scout_demo/CMakeFiles/demo_scout_robot.dir/all] Error 2
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [sample/bunker_demo/CMakeFiles/demo_bunker_robot.dir/build.make:98: bin/demo_bunker_robot] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:393: sample/bunker_demo/CMakeFiles/demo_bunker_robot.dir/all] Error 2
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [sample/utils_demo/CMakeFiles/demo_robot_version.dir/build.make:98: bin/demo_robot_version] Error 1
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/Makefile2:471: sample/utils_demo/CMakeFiles/demo_robot_version.dir/all] Error 2
+gmake[2]: *** [sample/scout_demo/CMakeFiles/demo_scout_mini_omni_robot.dir/build.make:98: bin/demo_scout_mini_omni_robot] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:315: sample/scout_demo/CMakeFiles/demo_scout_mini_omni_robot.dir/all] Error 2
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [sample/hunter_demo/CMakeFiles/demo_hunter_robot.dir/build.make:98: bin/demo_hunter_robot] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:419: sample/hunter_demo/CMakeFiles/demo_hunter_robot.dir/all] Error 2
+gmake: *** [Makefile:166: all] Error 2

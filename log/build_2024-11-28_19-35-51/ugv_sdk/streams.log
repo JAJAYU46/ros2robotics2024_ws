@@ -1,0 +1,21 @@
+[0.006s] Invoking command in '/home/jajayu/ros2robotics2024_ws/build/ugv_sdk': /home/jajayu/.local/bin/cmake --build /home/jajayu/ros2robotics2024_ws/build/ugv_sdk -- -j8 -l8
+[0.149s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.149s]   By not providing "FindASIO.cmake" in CMAKE_MODULE_PATH this project has
+[0.149s]   asked CMake to find a package configuration file provided by "ASIO", but
+[0.149s]   CMake did not find one.
+[0.149s] 
+[0.150s]   Could not find a package configuration file provided by "ASIO" with any of
+[0.150s]   the following names:
+[0.150s] 
+[0.150s]     ASIOConfig.cmake
+[0.150s]     asio-config.cmake
+[0.150s] 
+[0.150s]   Add the installation prefix of "ASIO" to CMAKE_PREFIX_PATH or set
+[0.150s]   "ASIO_DIR" to a directory containing one of the above files.  If "ASIO"
+[0.150s]   provides a separate development package or SDK, be sure it has been
+[0.150s]   installed.
+[0.150s] 
+[0.150s] [0m
+[0.150s] -- Configuring incomplete, errors occurred!
+[0.150s] gmake: *** [Makefile:632: cmake_check_build_system] Error 1
+[0.167s] Invoked command in '/home/jajayu/ros2robotics2024_ws/build/ugv_sdk' returned '2': /home/jajayu/.local/bin/cmake --build /home/jajayu/ros2robotics2024_ws/build/ugv_sdk -- -j8 -l8

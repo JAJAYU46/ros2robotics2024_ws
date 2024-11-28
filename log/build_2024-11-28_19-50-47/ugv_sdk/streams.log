@@ -1,0 +1,8 @@
+[0.013s] Invoking command in '/home/jajayu/ros2robotics2024_ws/build/ugv_sdk': /home/jajayu/.local/bin/cmake --build /home/jajayu/ros2robotics2024_ws/build/ugv_sdk -- -j8 -l8
+[0.123s] [31mCMake Error at CMakeLists.txt:30 (message):
+[0.123s]   Could not find Asio headers!
+[0.123s] 
+[0.123s] [0m
+[0.123s] -- Configuring incomplete, errors occurred!
+[0.124s] gmake: *** [Makefile:632: cmake_check_build_system] Error 1
+[0.144s] Invoked command in '/home/jajayu/ros2robotics2024_ws/build/ugv_sdk' returned '2': /home/jajayu/.local/bin/cmake --build /home/jajayu/ros2robotics2024_ws/build/ugv_sdk -- -j8 -l8

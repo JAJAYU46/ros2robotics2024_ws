@@ -1,0 +1,5 @@
+/home/jajayu/ros2robotics2024_ws/build/scout_msgs/rosidl_adapter/scout_msgs:msg/ScoutActuatorState.idl
+/home/jajayu/ros2robotics2024_ws/build/scout_msgs/rosidl_adapter/scout_msgs:msg/ScoutLightCmd.idl
+/home/jajayu/ros2robotics2024_ws/build/scout_msgs/rosidl_adapter/scout_msgs:msg/ScoutLightState.idl
+/home/jajayu/ros2robotics2024_ws/build/scout_msgs/rosidl_adapter/scout_msgs:msg/ScoutRCState.idl
+/home/jajayu/ros2robotics2024_ws/build/scout_msgs/rosidl_adapter/scout_msgs:msg/ScoutStatus.idl

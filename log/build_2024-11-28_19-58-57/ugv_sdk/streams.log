@@ -1,0 +1,55 @@
+[0.020s] Invoking command in '/home/jajayu/ros2robotics2024_ws/build/ugv_sdk': /home/jajayu/.local/bin/cmake --build /home/jajayu/ros2robotics2024_ws/build/ugv_sdk -- -j8 -l8
+[0.169s] [  3%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o[0m
+[3.765s] [  7%] [32m[1mLinking CXX static library lib/libugv_sdk.a[0m
+[3.798s] [ 42%] Built target ugv_sdk
+[3.809s] [ 50%] [32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_mini_omni_robot.dir/scout_mini_omni_demo.cpp.o[0m
+[3.811s] [ 50%] [32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_robot.dir/scout_robot_demo.cpp.o[0m
+[3.812s] [ 53%] [32mBuilding CXX object sample/ranger_demo/CMakeFiles/demo_ranger_robot.dir/ranger_robot_demo.cpp.o[0m
+[3.812s] [ 60%] [32mBuilding CXX object sample/bunker_demo/CMakeFiles/demo_bunker_robot.dir/bunker_robot_demo.cpp.o[0m
+[3.812s] [ 60%] [32mBuilding CXX object sample/tracer_demo/CMakeFiles/demo_tracer_robot.dir/tracer_robot_demo.cpp.o[0m
+[3.812s] [ 64%] [32mBuilding CXX object sample/hunter_demo/CMakeFiles/demo_hunter_robot.dir/hunter_robot_demo.cpp.o[0m
+[3.814s] [ 67%] [32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_protocol_detector.dir/demo_protocol_detector.cpp.o[0m
+[3.816s] [ 71%] [32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_robot_version.dir/demo_robot_version.cpp.o[0m
+[4.361s] [ 75%] [32m[1mLinking CXX executable ../../bin/demo_bunker_robot[0m
+[4.384s] /usr/bin/ld: cannot find -lasio: No such file or directory
+[4.423s] collect2: error: ld returned 1 exit status
+[4.425s] gmake[2]: *** [sample/bunker_demo/CMakeFiles/demo_bunker_robot.dir/build.make:98: bin/demo_bunker_robot] Error 1
+[4.425s] gmake[1]: *** [CMakeFiles/Makefile2:339: sample/bunker_demo/CMakeFiles/demo_bunker_robot.dir/all] Error 2
+[4.425s] gmake[1]: *** Waiting for unfinished jobs....
+[5.614s] [ 78%] [32m[1mLinking CXX executable ../../bin/demo_protocol_detector[0m
+[5.632s] /usr/bin/ld: cannot find -lasio: No such file or directory
+[5.661s] collect2: error: ld returned 1 exit status
+[5.663s] gmake[2]: *** [sample/utils_demo/CMakeFiles/demo_protocol_detector.dir/build.make:98: bin/demo_protocol_detector] Error 1
+[5.663s] gmake[1]: *** [CMakeFiles/Makefile2:391: sample/utils_demo/CMakeFiles/demo_protocol_detector.dir/all] Error 2
+[5.685s] [ 82%] [32m[1mLinking CXX executable ../../bin/demo_hunter_robot[0m
+[5.700s] /usr/bin/ld: cannot find -lasio: No such file or directory
+[5.706s] [ 85%] [32m[1mLinking CXX executable ../../bin/demo_robot_version[0m
+[5.721s] /usr/bin/ld: cannot find -lasio: No such file or directory
+[5.731s] collect2: error: ld returned 1 exit status
+[5.732s] gmake[2]: *** [sample/hunter_demo/CMakeFiles/demo_hunter_robot.dir/build.make:98: bin/demo_hunter_robot] Error 1
+[5.733s] gmake[1]: *** [CMakeFiles/Makefile2:365: sample/hunter_demo/CMakeFiles/demo_hunter_robot.dir/all] Error 2
+[5.750s] collect2: error: ld returned 1 exit status
+[5.752s] gmake[2]: *** [sample/utils_demo/CMakeFiles/demo_robot_version.dir/build.make:98: bin/demo_robot_version] Error 1
+[5.752s] gmake[1]: *** [CMakeFiles/Makefile2:417: sample/utils_demo/CMakeFiles/demo_robot_version.dir/all] Error 2
+[5.754s] [ 89%] [32m[1mLinking CXX executable ../../bin/demo_scout_robot[0m
+[5.762s] [ 92%] [32m[1mLinking CXX executable ../../bin/demo_scout_mini_omni_robot[0m
+[5.768s] /usr/bin/ld: cannot find -lasio: No such file or directory
+[5.775s] /usr/bin/ld: cannot find -lasio: No such file or directory
+[5.790s] collect2: error: ld returned 1 exit status
+[5.791s] gmake[2]: *** [sample/scout_demo/CMakeFiles/demo_scout_robot.dir/build.make:98: bin/demo_scout_robot] Error 1
+[5.791s] gmake[1]: *** [CMakeFiles/Makefile2:235: sample/scout_demo/CMakeFiles/demo_scout_robot.dir/all] Error 2
+[5.800s] collect2: error: ld returned 1 exit status
+[5.802s] gmake[2]: *** [sample/scout_demo/CMakeFiles/demo_scout_mini_omni_robot.dir/build.make:98: bin/demo_scout_mini_omni_robot] Error 1
+[5.802s] gmake[1]: *** [CMakeFiles/Makefile2:261: sample/scout_demo/CMakeFiles/demo_scout_mini_omni_robot.dir/all] Error 2
+[5.914s] [ 96%] [32m[1mLinking CXX executable ../../bin/demo_ranger_robot[0m
+[5.926s] /usr/bin/ld: cannot find -lasio: No such file or directory
+[5.948s] collect2: error: ld returned 1 exit status
+[5.949s] gmake[2]: *** [sample/ranger_demo/CMakeFiles/demo_ranger_robot.dir/build.make:98: bin/demo_ranger_robot] Error 1
+[5.949s] gmake[1]: *** [CMakeFiles/Makefile2:313: sample/ranger_demo/CMakeFiles/demo_ranger_robot.dir/all] Error 2
+[6.078s] [100%] [32m[1mLinking CXX executable ../../bin/demo_tracer_robot[0m
+[6.090s] /usr/bin/ld: cannot find -lasio: No such file or directory
+[6.110s] collect2: error: ld returned 1 exit status
+[6.112s] gmake[2]: *** [sample/tracer_demo/CMakeFiles/demo_tracer_robot.dir/build.make:98: bin/demo_tracer_robot] Error 1
+[6.112s] gmake[1]: *** [CMakeFiles/Makefile2:287: sample/tracer_demo/CMakeFiles/demo_tracer_robot.dir/all] Error 2
+[6.112s] gmake: *** [Makefile:156: all] Error 2
+[6.122s] Invoked command in '/home/jajayu/ros2robotics2024_ws/build/ugv_sdk' returned '2': /home/jajayu/.local/bin/cmake --build /home/jajayu/ros2robotics2024_ws/build/ugv_sdk -- -j8 -l8

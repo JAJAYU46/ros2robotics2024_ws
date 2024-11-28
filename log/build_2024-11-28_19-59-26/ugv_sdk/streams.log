@@ -1,0 +1,45 @@
+[0.023s] Invoking command in '/home/jajayu/ros2robotics2024_ws/build/ugv_sdk': /home/jajayu/.local/bin/cmake --build /home/jajayu/ros2robotics2024_ws/build/ugv_sdk -- -j8 -l8
+[0.176s] [ 42%] Built target ugv_sdk
+[0.202s] [ 46%] [32m[1mLinking CXX executable ../../bin/demo_scout_robot[0m
+[0.207s] [ 50%] [32m[1mLinking CXX executable ../../bin/demo_scout_mini_omni_robot[0m
+[0.207s] [ 53%] [32m[1mLinking CXX executable ../../bin/demo_tracer_robot[0m
+[0.207s] [ 57%] [32m[1mLinking CXX executable ../../bin/demo_bunker_robot[0m
+[0.213s] [ 60%] [32m[1mLinking CXX executable ../../bin/demo_protocol_detector[0m
+[0.221s] /usr/bin/ld: cannot find -lasio: No such file or directory
+[0.226s] /usr/bin/ld: cannot find -lasio: /usr/bin/ldNo such file or directory
+[0.226s] : cannot find -lasio: No such file or directory
+[0.227s] /usr/bin/ld: cannot find -lasio: No such file or directory
+[0.234s] [ 64%] [32m[1mLinking CXX executable ../../bin/demo_robot_version[0m
+[0.234s] /usr/bin/ld: cannot find -lasio: No such file or directory
+[0.234s] [ 67%] [32m[1mLinking CXX executable ../../bin/demo_ranger_robot[0m
+[0.234s] [ 71%] [32m[1mLinking CXX executable ../../bin/demo_hunter_robot[0m
+[0.260s] /usr/bin/ld: cannot find -lasio: No such file or directory
+[0.262s] collect2: error: ld returned 1 exit status
+[0.262s] collect2: error: ld returned 1 exit status
+[0.270s] /usr/bin/ldgmake[2]: *** [sample/scout_demo/CMakeFiles/demo_scout_robot.dir/build.make:98: bin/demo_scout_robot] Error 1
+[0.270s] /usr/bin/ld: cannot find : cannot find -lasio: No such file or directory
+[0.270s] gmake[1]: *** [CMakeFiles/Makefile2:235: sample/scout_demo/CMakeFiles/demo_scout_robot.dir/all] Error 2
+[0.270s] collect2: error: ld returned 1 exit status
+[0.271s] gmake[2]: *** [sample/scout_demo/CMakeFiles/demo_scout_mini_omni_robot.dir/build.make:98: bin/demo_scout_mini_omni_robot] Error 1
+[0.271s] collect2: error: ld returned 1 exit status
+[0.272s] -lasiogmake[1]: *** Waiting for unfinished jobs....
+[0.272s] : No such file or directory
+[0.272s] gmake[2]: *** [sample/bunker_demo/CMakeFiles/demo_bunker_robot.dir/build.make:98: bin/demo_bunker_robot] Error 1
+[0.272s] gmake[1]: *** [CMakeFiles/Makefile2:339: sample/bunker_demo/CMakeFiles/demo_bunker_robot.dir/all] Error 2
+[0.272s] gmake[1]: *** [CMakeFiles/Makefile2:261: sample/scout_demo/CMakeFiles/demo_scout_mini_omni_robot.dir/all] Error 2
+[0.276s] collect2: error: ld returned 1 exit status
+[0.278s] gmake[2]: *** [sample/tracer_demo/CMakeFiles/demo_tracer_robot.dir/build.make:98: bin/demo_tracer_robot] Error 1
+[0.279s] gmake[1]: *** [CMakeFiles/Makefile2:287: sample/tracer_demo/CMakeFiles/demo_tracer_robot.dir/all] Error 2
+[0.279s] gmake[2]: *** [sample/utils_demo/CMakeFiles/demo_protocol_detector.dir/build.make:98: bin/demo_protocol_detector] Error 1
+[0.279s] gmake[1]: *** [CMakeFiles/Makefile2:391: sample/utils_demo/CMakeFiles/demo_protocol_detector.dir/all] Error 2
+[0.290s] collect2: error: ld returned 1 exit status
+[0.291s] gmake[2]: *** [sample/hunter_demo/CMakeFiles/demo_hunter_robot.dir/build.make:98: bin/demo_hunter_robot] Error 1
+[0.291s] gmake[1]: *** [CMakeFiles/Makefile2:365: sample/hunter_demo/CMakeFiles/demo_hunter_robot.dir/all] Error 2
+[0.297s] collect2: error: ld returned 1 exit status
+[0.298s] gmake[2]: *** [sample/ranger_demo/CMakeFiles/demo_ranger_robot.dir/build.make:98: bin/demo_ranger_robot] Error 1
+[0.298s] gmake[1]: *** [CMakeFiles/Makefile2:313: sample/ranger_demo/CMakeFiles/demo_ranger_robot.dir/all] Error 2
+[0.299s] collect2: error: ld returned 1 exit status
+[0.301s] gmake[2]: *** [sample/utils_demo/CMakeFiles/demo_robot_version.dir/build.make:98: bin/demo_robot_version] Error 1
+[0.301s] gmake[1]: *** [CMakeFiles/Makefile2:417: sample/utils_demo/CMakeFiles/demo_robot_version.dir/all] Error 2
+[0.301s] gmake: *** [Makefile:156: all] Error 2
+[0.316s] Invoked command in '/home/jajayu/ros2robotics2024_ws/build/ugv_sdk' returned '2': /home/jajayu/.local/bin/cmake --build /home/jajayu/ros2robotics2024_ws/build/ugv_sdk -- -j8 -l8

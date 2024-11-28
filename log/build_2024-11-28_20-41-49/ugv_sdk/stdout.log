@@ -1,0 +1,10 @@
+Built target ugv_sdk
+Built target demo_scout_robot
+Built target demo_scout_mini_omni_robot
+Built target demo_tracer_robot
+Built target demo_ranger_robot
+Built target demo_hunter_robot
+Built target demo_bunker_robot
+Built target demo_protocol_detector
+Built target demo_robot_version
+-- Install configuration: "Release"

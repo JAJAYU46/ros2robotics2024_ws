@@ -1,0 +1,24 @@
+[0.027s] Invoking command in '/home/jajayu/ros2robotics2024_ws/build/scout_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jajayu/TomatoHarvesting_NextBestView/nbv_code/ros2_ws2/install/my_robot_nbv:/home/jajayu/TomatoHarvesting_NextBestView/nbv_code/ros2_ws2/install/my_robot_cam:/home/jajayu/ros2_ws/install/webots_ros2_tests:/home/jajayu/ros2_ws/install/webots_ros2:/home/jajayu/ros2_ws/install/pcd_demo:/home/jajayu/ros2_ws/install/my_robot_controller:/home/jajayu/ros2_ws/install/my_robot_cam:/home/jajayu/ros2_ws/install/gazebo_tutorial:/opt/ros/humble /home/jajayu/.local/bin/cmake --build /home/jajayu/ros2robotics2024_ws/build/scout_msgs -- -j8 -l8
+[0.154s] [  1%] Built target scout_msgs__cpp
+[0.158s] [ 12%] Built target scout_msgs__rosidl_generator_c
+[0.162s] [ 12%] Built target ament_cmake_python_copy_scout_msgs
+[0.175s] [ 23%] Built target scout_msgs__rosidl_typesupport_cpp
+[0.178s] [ 34%] Built target scout_msgs__rosidl_typesupport_fastrtps_cpp
+[0.179s] [ 46%] Built target scout_msgs__rosidl_typesupport_introspection_cpp
+[0.179s] [ 57%] Built target scout_msgs__rosidl_typesupport_introspection_c
+[0.179s] [ 79%] Built target scout_msgs__rosidl_typesupport_c
+[0.179s] [ 79%] Built target scout_msgs__rosidl_typesupport_fastrtps_c
+[0.192s] [ 79%] Built target scout_msgs
+[0.203s] [ 80%] Built target scout_msgs__py
+[0.224s] [ 90%] Built target scout_msgs__rosidl_generator_py
+[0.263s] [ 93%] Built target scout_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.263s] [ 96%] Built target scout_msgs__rosidl_typesupport_introspection_c__pyext
+[0.283s] [100%] Built target scout_msgs__rosidl_typesupport_c__pyext
+[0.534s] running egg_info
+[0.535s] writing scout_msgs.egg-info/PKG-INFO
+[0.535s] writing dependency_links to scout_msgs.egg-info/dependency_links.txt
+[0.536s] writing top-level names to scout_msgs.egg-info/top_level.txt
+[0.540s] reading manifest file 'scout_msgs.egg-info/SOURCES.txt'
+[0.541s] writing manifest file 'scout_msgs.egg-info/SOURCES.txt'
+[0.566s] [100%] Built target ament_cmake_python_build_scout_msgs_egg
+[0.588s] Invoked command in '/home/jajayu/ros2robotics2024_ws/build/scout_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jajayu/TomatoHarvesting_NextBestView/nbv_code/ros2_ws2/install/my_robot_nbv:/home/jajayu/TomatoHarvesting_NextBestView/nbv_code/ros2_ws2/install/my_robot_cam:/home/jajayu/ros2_ws/install/webots_ros2_tests:/home/jajayu/ros2_ws/install/webots_ros2:/home/jajayu/ros2_ws/install/pcd_demo:/home/jajayu/ros2_ws/install/my_robot_controller:/home/jajayu/ros2_ws/install/my_robot_cam:/home/jajayu/ros2_ws/install/gazebo_tutorial:/opt/ros/humble /home/jajayu/.local/bin/cmake --build /home/jajayu/ros2robotics2024_ws/build/scout_msgs -- -j8 -l8

@@ -1,0 +1,30 @@
+[0.028s] Invoking command in '/home/jajayu/Documents/ros2robotics2024_ws/build/ugv_sdk': /home/jajayu/.local/bin/cmake --build /home/jajayu/Documents/ros2robotics2024_ws/build/ugv_sdk -- -j8 -l8
+[0.121s] [0mCMake Error: The current CMakeCache.txt directory /home/jajayu/Documents/ros2robotics2024_ws/build/ugv_sdk/CMakeCache.txt is different than the directory /home/jajayu/ros2robotics2024_ws/build/ugv_sdk where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.153s] CMake Error: Target DependInfo.cmake file not found
+[0.169s] Built target ugv_sdk
+[0.184s] CMake Error: Target DependInfo.cmake file not found
+[0.189s] CMake Error: Target DependInfo.cmake file not found
+[0.191s] CMake Error: Target DependInfo.cmake file not found
+[0.192s] CMake Error: Target DependInfo.cmake file not found
+[0.193s] CMake Error: Target DependInfo.cmake file not found
+[0.195s] CMake Error: Target DependInfo.cmake file not found
+[0.196s] CMake Error: Target DependInfo.cmake file not found
+[0.200s] Built target demo_scout_robot
+[0.200s] CMake Error: Target DependInfo.cmake file not found
+[0.206s] Built target demo_scout_mini_omni_robot
+[0.206s] Built target demo_tracer_robot
+[0.206s] Built target demo_ranger_robot
+[0.207s] Built target demo_hunter_robot
+[0.210s] Built target demo_bunker_robot
+[0.211s] Built target demo_protocol_detector
+[0.211s] Built target demo_robot_version
+[0.229s] Invoked command in '/home/jajayu/Documents/ros2robotics2024_ws/build/ugv_sdk' returned '0': /home/jajayu/.local/bin/cmake --build /home/jajayu/Documents/ros2robotics2024_ws/build/ugv_sdk -- -j8 -l8
+[0.408s] Invoking command in '/home/jajayu/Documents/ros2robotics2024_ws/build/ugv_sdk': /home/jajayu/.local/bin/cmake --install /home/jajayu/Documents/ros2robotics2024_ws/build/ugv_sdk
+[0.502s] -- Install configuration: "Release"
+[0.504s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.504s]   file INSTALL cannot find
+[0.504s]   "/home/jajayu/ros2robotics2024_ws/build/ugv_sdk/lib/libugv_sdk.a": No such
+[0.505s]   file or directory.
+[0.505s] 
+[0.506s] [0m
+[0.512s] Invoked command in '/home/jajayu/Documents/ros2robotics2024_ws/build/ugv_sdk' returned '1': /home/jajayu/.local/bin/cmake --install /home/jajayu/Documents/ros2robotics2024_ws/build/ugv_sdk

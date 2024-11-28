@@ -1,0 +1,86 @@
+[0.023s] Invoking command in '/home/jajayu/ros2robotics2024_ws/build/ugv_sdk': /home/jajayu/.local/bin/cmake --build /home/jajayu/ros2robotics2024_ws/build/ugv_sdk -- -j8 -l8
+[0.143s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.461s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.468s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.473s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.491s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.514s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.684s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.685s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.850s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.852s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.008s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.579s] -- Build package with cmake
+[1.580s] -- Tests will not be built
+[1.594s] -- Project will be installed to /home/jajayu/ros2robotics2024_ws/install/ugv_sdk with 'make install'
+[1.594s] --  - To install LIB components to /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/lib
+[1.594s] --  - To install BIN components to /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/bin
+[1.594s] --  - To install INCLUDE components to /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include
+[1.594s] --  - To install CMAKE components to /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/share/cmake/ugv_sdk
+[1.621s] -- Configuring done (1.5s)
+[1.692s] -- Generating done (0.1s)
+[1.693s] -- Build files have been written to: /home/jajayu/ros2robotics2024_ws/build/ugv_sdk
+[1.755s] [  3%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o[0m
+[1.756s] [  7%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_can.cpp.o[0m
+[1.758s] [ 10%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/utilities/protocol_detector.cpp.o[0m
+[1.758s] [ 14%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/scout_robot.cpp.o[0m
+[1.759s] [ 17%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/hunter_robot.cpp.o[0m
+[1.761s] [ 21%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/bunker_robot.cpp.o[0m
+[1.765s] [ 25%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/ranger_robot.cpp.o[0m
+[1.770s] [ 28%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/titan_robot.cpp.o[0m
+[3.923s] [ 32%] [32mBuilding C object CMakeFiles/ugv_sdk.dir/src/protocol_v2/agilex_msg_parser_v2.c.o[0m
+[4.058s] [ 35%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/protocol_v2/protocol_v2_parser.cpp.o[0m
+[4.107s] [ 39%] [32mBuilding C object CMakeFiles/ugv_sdk.dir/src/protocol_v1/agilex_msg_parser_v1.c.o[0m
+[5.766s] [ 42%] [32m[1mLinking CXX static library lib/libugv_sdk.a[0m
+[5.798s] [ 42%] Built target ugv_sdk
+[5.816s] [ 46%] [32mBuilding CXX object sample/bunker_demo/CMakeFiles/demo_bunker_robot.dir/bunker_robot_demo.cpp.o[0m
+[5.823s] [ 50%] [32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_mini_omni_robot.dir/scout_mini_omni_demo.cpp.o[0m
+[5.823s] [ 53%] [32mBuilding CXX object sample/tracer_demo/CMakeFiles/demo_tracer_robot.dir/tracer_robot_demo.cpp.o[0m
+[5.823s] [ 57%] [32mBuilding CXX object sample/ranger_demo/CMakeFiles/demo_ranger_robot.dir/ranger_robot_demo.cpp.o[0m
+[5.826s] [ 60%] [32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_protocol_detector.dir/demo_protocol_detector.cpp.o[0m
+[5.826s] [ 67%] [32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_robot_version.dir/demo_robot_version.cpp.o[0m
+[5.826s] [ 67%] [32mBuilding CXX object sample/hunter_demo/CMakeFiles/demo_hunter_robot.dir/hunter_robot_demo.cpp.o[0m
+[5.827s] [ 71%] [32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_robot.dir/scout_robot_demo.cpp.o[0m
+[6.385s] [ 75%] [32m[1mLinking CXX executable ../../bin/demo_bunker_robot[0m
+[6.401s] /usr/bin/ld: cannot find -ltf2_geometry_msgs: No such file or directory
+[6.453s] collect2: error: ld returned 1 exit status
+[6.453s] gmake[2]: *** [sample/bunker_demo/CMakeFiles/demo_bunker_robot.dir/build.make:98: bin/demo_bunker_robot] Error 1
+[6.453s] gmake[1]: *** [CMakeFiles/Makefile2:393: sample/bunker_demo/CMakeFiles/demo_bunker_robot.dir/all] Error 2
+[6.453s] gmake[1]: *** Waiting for unfinished jobs....
+[7.618s] [ 78%] [32m[1mLinking CXX executable ../../bin/demo_protocol_detector[0m
+[7.636s] /usr/bin/ld: cannot find -ltf2_geometry_msgs: No such file or directory
+[7.667s] collect2: error: ld returned 1 exit status
+[7.667s] gmake[2]: *** [sample/utils_demo/CMakeFiles/demo_protocol_detector.dir/build.make:98: bin/demo_protocol_detector] Error 1
+[7.667s] gmake[1]: *** [CMakeFiles/Makefile2:445: sample/utils_demo/CMakeFiles/demo_protocol_detector.dir/all] Error 2
+[7.704s] [ 82%] [32m[1mLinking CXX executable ../../bin/demo_robot_version[0m
+[7.720s] /usr/bin/ld: cannot find -ltf2_geometry_msgs: No such file or directory
+[7.725s] [ 85%] [32m[1mLinking CXX executable ../../bin/demo_hunter_robot[0m
+[7.740s] /usr/bin/ld: cannot find -ltf2_geometry_msgs: No such file or directory
+[7.745s] [ 89%] [32m[1mLinking CXX executable ../../bin/demo_scout_robot[0m
+[7.751s] collect2: error: ld returned 1 exit status
+[7.753s] gmake[2]: *** [sample/utils_demo/CMakeFiles/demo_robot_version.dir/build.make:98: bin/demo_robot_version] Error 1
+[7.753s] gmake[1]: *** [CMakeFiles/Makefile2:471: sample/utils_demo/CMakeFiles/demo_robot_version.dir/all] Error 2
+[7.759s] /usr/bin/ld: cannot find -ltf2_geometry_msgs: No such file or directory
+[7.764s] [ 92%] [32m[1mLinking CXX executable ../../bin/demo_scout_mini_omni_robot[0m
+[7.770s] collect2: error: ld returned 1 exit status
+[7.773s] gmake[2]: *** [sample/hunter_demo/CMakeFiles/demo_hunter_robot.dir/build.make:98: bin/demo_hunter_robot] Error 1
+[7.773s] gmake[1]: *** [CMakeFiles/Makefile2:419: sample/hunter_demo/CMakeFiles/demo_hunter_robot.dir/all] Error 2
+[7.784s] /usr/bin/ld: cannot find -ltf2_geometry_msgs: No such file or directory
+[7.785s] collect2: error: ld returned 1 exit status
+[7.786s] gmake[2]: *** [sample/scout_demo/CMakeFiles/demo_scout_robot.dir/build.make:98: bin/demo_scout_robot] Error 1
+[7.787s] gmake[1]: *** [CMakeFiles/Makefile2:289: sample/scout_demo/CMakeFiles/demo_scout_robot.dir/all] Error 2
+[7.803s] collect2: error: ld returned 1 exit status
+[7.805s] gmake[2]: *** [sample/scout_demo/CMakeFiles/demo_scout_mini_omni_robot.dir/build.make:98: bin/demo_scout_mini_omni_robot] Error 1
+[7.805s] gmake[1]: *** [CMakeFiles/Makefile2:315: sample/scout_demo/CMakeFiles/demo_scout_mini_omni_robot.dir/all] Error 2
+[7.911s] [ 96%] [32m[1mLinking CXX executable ../../bin/demo_ranger_robot[0m
+[7.923s] /usr/bin/ld: cannot find -ltf2_geometry_msgs: No such file or directory
+[7.945s] collect2: error: ld returned 1 exit status
+[7.947s] gmake[2]: *** [sample/ranger_demo/CMakeFiles/demo_ranger_robot.dir/build.make:98: bin/demo_ranger_robot] Error 1
+[7.948s] gmake[1]: *** [CMakeFiles/Makefile2:367: sample/ranger_demo/CMakeFiles/demo_ranger_robot.dir/all] Error 2
+[8.024s] [100%] [32m[1mLinking CXX executable ../../bin/demo_tracer_robot[0m
+[8.038s] /usr/bin/ld: cannot find -ltf2_geometry_msgs: No such file or directory
+[8.067s] collect2: error: ld returned 1 exit status
+[8.069s] gmake[2]: *** [sample/tracer_demo/CMakeFiles/demo_tracer_robot.dir/build.make:98: bin/demo_tracer_robot] Error 1
+[8.069s] gmake[1]: *** [CMakeFiles/Makefile2:341: sample/tracer_demo/CMakeFiles/demo_tracer_robot.dir/all] Error 2
+[8.069s] gmake: *** [Makefile:166: all] Error 2
+[8.085s] Invoked command in '/home/jajayu/ros2robotics2024_ws/build/ugv_sdk' returned '2': /home/jajayu/.local/bin/cmake --build /home/jajayu/ros2robotics2024_ws/build/ugv_sdk -- -j8 -l8

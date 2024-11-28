@@ -1,0 +1,23 @@
+[0.026s] Invoking command in '/home/jajayu/ros2robotics2024_ws/build/scout_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jajayu/TomatoHarvesting_NextBestView/nbv_code/ros2_ws2/install/my_robot_nbv:/home/jajayu/TomatoHarvesting_NextBestView/nbv_code/ros2_ws2/install/my_robot_cam:/home/jajayu/ros2_ws/install/webots_ros2_tests:/home/jajayu/ros2_ws/install/webots_ros2:/home/jajayu/ros2_ws/install/pcd_demo:/home/jajayu/ros2_ws/install/my_robot_controller:/home/jajayu/ros2_ws/install/my_robot_cam:/home/jajayu/ros2_ws/install/gazebo_tutorial:/opt/ros/humble /home/jajayu/.local/bin/cmake --build /home/jajayu/ros2robotics2024_ws/build/scout_msgs -- -j8 -l8
+[0.153s] [  1%] Built target scout_msgs__cpp
+[0.157s] [ 12%] Built target scout_msgs__rosidl_generator_c
+[0.161s] [ 12%] Built target ament_cmake_python_copy_scout_msgs
+[0.171s] [ 23%] Built target scout_msgs__rosidl_typesupport_cpp
+[0.174s] [ 34%] Built target scout_msgs__rosidl_typesupport_fastrtps_cpp
+[0.175s] [ 46%] Built target scout_msgs__rosidl_typesupport_introspection_cpp
+[0.178s] [ 60%] Built target scout_msgs__rosidl_typesupport_c
+[0.178s] [ 68%] Built target scout_msgs__rosidl_typesupport_fastrtps_c
+[0.178s] [ 79%] Built target scout_msgs__rosidl_typesupport_introspection_c
+[0.192s] [ 79%] Built target scout_msgs
+[0.216s] [ 80%] Built target scout_msgs__py
+[0.242s] [ 90%] Built target scout_msgs__rosidl_generator_py
+[0.278s] [ 93%] Built target scout_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.282s] [ 96%] Built target scout_msgs__rosidl_typesupport_introspection_c__pyext
+[0.286s] [100%] Built target scout_msgs__rosidl_typesupport_c__pyext
+[0.501s] running egg_info
+[0.502s] writing scout_msgs.egg-info/PKG-INFO
+[0.502s] writing dependency_links to scout_msgs.egg-info/dependency_links.txt
+[0.503s] writing top-level names to scout_msgs.egg-info/top_level.txt
+[0.505s] reading manifest file 'scout_msgs.egg-info/SOURCES.txt'
+[0.506s] writing manifest file 'scout_msgs.egg-info/SOURCES.txt'
+[0.530s] [100%] Built target ament_cmake_python_build_scout_msgs_egg

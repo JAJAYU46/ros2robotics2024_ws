@@ -1,0 +1,84 @@
+[0.017s] Invoking command in '/home/jajayu/ros2robotics2024_ws/build/ugv_sdk': /home/jajayu/.local/bin/cmake --build /home/jajayu/ros2robotics2024_ws/build/ugv_sdk -- -j8 -l8
+[0.128s] -- Build package with cmake
+[0.128s] -- Tests will not be built
+[0.137s] -- Project will be installed to /home/jajayu/ros2robotics2024_ws/install/ugv_sdk with 'make install'
+[0.137s] --  - To install LIB components to /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/lib
+[0.137s] --  - To install BIN components to /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/bin
+[0.137s] --  - To install INCLUDE components to /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/include
+[0.137s] --  - To install CMAKE components to /home/jajayu/ros2robotics2024_ws/install/ugv_sdk/share/cmake/ugv_sdk
+[0.149s] -- Configuring done (0.0s)
+[0.212s] -- Generating done (0.1s)
+[0.212s] -- Build files have been written to: /home/jajayu/ros2robotics2024_ws/build/ugv_sdk
+[0.233s] [  3%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/utilities/protocol_detector.cpp.o[0m
+[0.233s] [  7%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_can.cpp.o[0m
+[0.234s] [ 10%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o[0m
+[0.234s] [ 14%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/scout_robot.cpp.o[0m
+[0.237s] [ 17%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/hunter_robot.cpp.o[0m
+[0.237s] [ 21%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/bunker_robot.cpp.o[0m
+[0.237s] [ 25%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/ranger_robot.cpp.o[0m
+[0.237s] [ 28%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/titan_robot.cpp.o[0m
+[0.272s] In file included from [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/include/ugv_sdk/utilities/protocol_detector.hpp:15[m[K,
+[0.272s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/src/utilities/protocol_detector.cpp:10[m[K:
+[0.273s] [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: No such file or directory
+[0.273s]    24 | #include [01;31m[K"asio.hpp"[m[K
+[0.273s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.273s] compilation terminated.
+[0.273s] In file included from [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/src/async_port/async_can.cpp:10[m[K:
+[0.273s] [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: No such file or directory
+[0.273s]    24 | #include [01;31m[K"asio.hpp"[m[K
+[0.273s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.274s] compilation terminated.
+[0.274s] gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:104: CMakeFiles/ugv_sdk.dir/src/utilities/protocol_detector.cpp.o] Error 1
+[0.274s] gmake[2]: *** Waiting for unfinished jobs....
+[0.275s] gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:90: CMakeFiles/ugv_sdk.dir/src/async_port/async_can.cpp.o] Error 1
+[0.282s] In file included from [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/src/async_port/async_serial.cpp:10[m[K:
+[0.282s] [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_serial.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: No such file or directory
+[0.282s]    20 | #include [01;31m[K"asio.hpp"[m[K
+[0.282s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.282s] compilation terminated.
+[0.283s] gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:76: CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o] Error 1
+[0.291s] In file included from [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp:21[m[K,
+[0.291s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/hunter_base.hpp:19[m[K,
+[0.291s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/src/mobile_robot/hunter_robot.cpp:11[m[K:
+[0.291s] [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: No such file or directory
+[0.291s]    24 | #include [01;31m[K"asio.hpp"[m[K
+[0.291s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.291s] compilation terminated.
+[0.292s] gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:132: CMakeFiles/ugv_sdk.dir/src/mobile_robot/hunter_robot.cpp.o] Error 1
+[0.294s] In file included from [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp:21[m[K,
+[0.294s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:19[m[K,
+[0.294s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/src/mobile_robot/bunker_robot.cpp:11[m[K:
+[0.294s] [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: No such file or directory
+[0.294s]    24 | #include [01;31m[K"asio.hpp"[m[K
+[0.295s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.295s] In file included from [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp:21[m[K,
+[0.295s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/scout_base.hpp:19[m[K,
+[0.295s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/src/mobile_robot/scout_robot.cpp:11[m[K:
+[0.295s] [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: No such file or directory
+[0.295s]    24 | #include [01;31m[K"asio.hpp"[m[K
+[0.295s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.295s] compilation terminated.
+[0.295s] compilation terminated.
+[0.295s] gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:118: CMakeFiles/ugv_sdk.dir/src/mobile_robot/scout_robot.cpp.o] Error 1
+[0.296s] gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:146: CMakeFiles/ugv_sdk.dir/src/mobile_robot/bunker_robot.cpp.o] Error 1
+[0.310s] In file included from [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp:21[m[K,
+[0.310s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/titan_base.hpp:18[m[K,
+[0.310s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/include/ugv_sdk/mobile_robot/titan_robot.hpp:15[m[K,
+[0.310s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/src/mobile_robot/titan_robot.cpp:9[m[K:
+[0.310s] [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: No such file or directory
+[0.310s]    24 | #include [01;31m[K"asio.hpp"[m[K
+[0.311s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.311s] compilation terminated.
+[0.311s] In file included from [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp:21[m[K,
+[0.311s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/ranger_base.hpp:19[m[K,
+[0.311s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/include/ugv_sdk/mobile_robot/ranger_robot.hpp:15[m[K,
+[0.311s]                  from [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/src/mobile_robot/ranger_robot.cpp:9[m[K:
+[0.311s] [01m[K/home/jajayu/ros2robotics2024_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: No such file or directory
+[0.311s]    24 | #include [01;31m[K"asio.hpp"[m[K
+[0.311s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.311s] compilation terminated.
+[0.311s] gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:174: CMakeFiles/ugv_sdk.dir/src/mobile_robot/titan_robot.cpp.o] Error 1
+[0.312s] gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:160: CMakeFiles/ugv_sdk.dir/src/mobile_robot/ranger_robot.cpp.o] Error 1
+[0.312s] gmake[1]: *** [CMakeFiles/Makefile2:209: CMakeFiles/ugv_sdk.dir/all] Error 2
+[0.312s] gmake: *** [Makefile:156: all] Error 2
+[0.328s] Invoked command in '/home/jajayu/ros2robotics2024_ws/build/ugv_sdk' returned '2': /home/jajayu/.local/bin/cmake --build /home/jajayu/ros2robotics2024_ws/build/ugv_sdk -- -j8 -l8
